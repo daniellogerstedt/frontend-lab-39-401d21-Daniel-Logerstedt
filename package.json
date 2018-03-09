@@ -8,7 +8,7 @@
     "watch": "webpack-dev-server --inline --hot",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "start": "npm run index.js",
+    "start": "node index.js",
     "heroku-postbuild": "webpack -p --progress"
   },
   "engines": {
